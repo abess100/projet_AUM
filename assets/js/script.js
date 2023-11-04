@@ -301,3 +301,11 @@
 
 
 })(jQuery);
+
+
+// const slider = document.querySelector('.slider');
+
+// setInterval(() => {
+//   slider.appendChild(slider.firstElementChild);
+// }, 5000); // Change de logo toutes les 5 secondes
+

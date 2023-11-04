@@ -1377,7 +1377,7 @@ Course Category
 
 .counter-section {
   position: relative;
-  background: #FF1949;
+  background: #004e98;
 }
 
 .counter-section:before {
@@ -1387,7 +1387,6 @@ Course Category
   top: 0px;
   width: 100%;
   height: 100%;
-  background: url("../images/bg/bg-do2.png");
   opacity: .3;
 }
 
@@ -1786,6 +1785,21 @@ About Section
 .about-2 p {
   margin-bottom: 30px;
 }
+
+#section-about{
+  background-image: url('..//images/banner.png');
+}
+#section-about h2, #section-about span,#section-about h3{
+   color: #fff;
+}
+
+#section-about h2, #section-about h3{
+  text-align: center;
+}
+
+
+
+
 
 /*====================
  Team Section
@@ -4191,6 +4205,19 @@ table.cart tr:first-child td.product-remove {
   padding: 20px;
   text-align: left;
   border: 1px solid #e8e8e8;
+  width: 60%;
+  margin: 0 auto;
+}
+.docu{
+
+  border: 1px dotted black;
+  padding: 25px 60px;
+  margin:  0  0 20px;
+  border-radius: 10px;
+}
+ 
+.resg{
+  text-align: center;
 }
 
 .woocommerce-error,
@@ -5469,8 +5496,20 @@ Home New 8
 /* Banner style 8  */
 .banner-style-8{
   padding: 100px 0px;
-  background: #FEEFDC;
+  opacity: 1.2;
   padding-bottom: 200px;
+  background-image: url(../images/banner/315754880_2050748061780942_3074805440682176470_n.jpg);
+  background-color: black;
+}
+
+.hearder .col-md-12{
+  text-align: center;
+  font-weight: 600;
+}
+.hearder .col-md-12 h1{
+  text-align: center;
+  font-weight: 600;
+  color:#fff
 }
 
 .banner-style-8 .banner-content h1{
@@ -5507,7 +5546,7 @@ Home New 8
 
 .header-top-2 .header-socials li a:hover,
 .header-top-2 .header-contact li a:hover{
-  color:#FF1949;
+  color:#004E9B;
 }
 
 
@@ -5551,9 +5590,199 @@ Home New 8
   padding: 40px 0px;
 }
 
-
-
-
-.logo{
-  flex: 1;
+.publicite{
+  display: flex;
+  width: 100%;
+  padding: 0px 0px 0px 100px;
+  flex-wrap: wrap;
 }
+
+.infos{
+  width: 35%;
+}
+
+.info{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.section-actu{
+  margin: 40px 0;
+}
+.section-actu>h2{
+  margin: 30px 100px 20px;
+}
+.section-actu>p{
+    margin:0 100px 20px;
+    
+}
+p>a{
+  color: black;
+}
+p>a:hover{
+  color: red;
+}
+.section-actu>a:hover{
+     color: red;
+}
+
+.actu{
+  width: 40%;
+}
+
+.actu p{
+  margin-top: 10px;
+}
+.actu >h3{
+  width: 90%;
+}
+.actu >img{
+  width: 90%;
+}
+
+.infos >img{
+  width: 25px;
+}
+
+.section-paddings{
+  padding: 30px;
+}
+
+.lien_rap{
+  background-color:lightblue;
+  padding: 30px 30px 0 50px;
+  background-image: url(../images/close.png);
+}
+.lien_rap{
+  background-color:lightblue;
+  width: 20%;
+}
+
+
+
+@media screen and (max-width:500px) {
+  .lien_rap{
+    display: none;
+  }
+  .publicite{
+    display: grid;
+    padding: 20px ;
+  }
+
+  .actu, .elem{
+    width: 100%;
+  }
+  .actu >img{
+    width: 100%;
+  }
+  .infos{width: 100%;}
+}
+
+
+.single-course-lesson li{
+  list-style-type:circle;
+
+}
+.single-course-lesson ol{
+  padding-left: 20px;
+
+}
+
+.course-topic-lesson li{
+  list-style-type:circle;
+
+}
+
+.course-topic-lesson li{
+  list-style-type:decimal;
+}
+
+.broch{
+  margin-left: 50px;
+  background-color: red;
+  width: 300px;
+  padding: 19px;
+  border-radius: 5px;
+  color: #fff;
+
+}
+
+.about-sections{
+  background-color: lightblue;
+  color: black;
+}
+
+#col-md-{
+  width: 60%;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  animation: slide 15s infinite;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+@keyframes slide {
+  0%, 100% {
+      transform: translateX(0);
+  }
+  20% {
+      transform: translateX(0);
+  }
+  25% {
+      transform: translateX(-100%);
+  }
+  45% {
+      transform: translateX(-100%);
+  }
+  50% {
+      transform: translateX(-200%);
+  }
+  70% {
+      transform: translateX(-200%);
+  }
+  75% {
+      transform: translateX(-300%);
+  }
+  95% {
+      transform: translateX(-300%);
+  }
+  100% {
+      transform: translateX(-400%);
+  }
+} 
+
+.count h2{ 
+  display: inline; 
+}
+
+.slider-container{
+  text-align: center;
+}
+
+
+
+
+
+
+
